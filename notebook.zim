@@ -10,6 +10,6 @@ shared=True
 endofline=dos
 disable_trash=False
 default_file_format=zim-wiki
-default_file_extension=.txt
+default_file_extension=.md
 notebook_layout=files
 
