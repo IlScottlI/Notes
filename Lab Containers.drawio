@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T21:18:43.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="HrbpGJe45wuWAnEWyLvG" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T21:36:09.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="p-Ydn-7mS0RZWMhoLvrr" version="23.1.5" type="github">
   <diagram name="1 Hub 1 Spoke" id="R0LucWDS8pMBu9vM3N5_">
     <mxGraphModel dx="1178" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -131,7 +131,7 @@
           <mxGeometry x="565" y="80" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fop5hVZ4AfmwE6Ed5ywb-67" value="Docker Pod Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="fop5hVZ4AfmwE6Ed5ywb-2">
-          <mxGeometry x="515" y="370" width="180" height="480" as="geometry" />
+          <mxGeometry x="515" y="370" width="225" height="480" as="geometry" />
         </mxCell>
         <mxCell id="fop5hVZ4AfmwE6Ed5ywb-52" value="Ignition Gateway Hub" style="swimlane;whiteSpace=wrap;html=1;startSize=43;" vertex="1" parent="fop5hVZ4AfmwE6Ed5ywb-67">
           <mxGeometry x="49" y="80" width="120" height="113" as="geometry" />
@@ -147,6 +147,17 @@
         </mxCell>
         <mxCell id="fop5hVZ4AfmwE6Ed5ywb-1" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="fop5hVZ4AfmwE6Ed5ywb-67">
           <mxGeometry x="4" y="28" width="45.74" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fop5hVZ4AfmwE6Ed5ywb-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="fop5hVZ4AfmwE6Ed5ywb-67" source="fop5hVZ4AfmwE6Ed5ywb-75" target="fop5hVZ4AfmwE6Ed5ywb-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="397" />
+              <mxPoint x="210" y="137" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fop5hVZ4AfmwE6Ed5ywb-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="fop5hVZ4AfmwE6Ed5ywb-67" source="fop5hVZ4AfmwE6Ed5ywb-75" target="fop5hVZ4AfmwE6Ed5ywb-56">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fop5hVZ4AfmwE6Ed5ywb-75" value="Microsoft" style="swimlane;whiteSpace=wrap;html=1;startSize=43;" vertex="1" parent="fop5hVZ4AfmwE6Ed5ywb-67">
           <mxGeometry x="49.739999999999995" y="340" width="120" height="114" as="geometry" />
